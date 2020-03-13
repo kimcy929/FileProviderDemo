@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope by MainScope() {
             type = "image/*"
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION
                     or Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+            //setPackage("com.instagram.android")
         }
         val intentChooser = Intent.createChooser(targetIntent, "Share to")
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
