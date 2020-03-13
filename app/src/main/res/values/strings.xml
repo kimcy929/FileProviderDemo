@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileProviderDemo</string>
+    <string name="share">Share</string>
+    <string name="hello">Hi everyone!</string>
+</resources>
